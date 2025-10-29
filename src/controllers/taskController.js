@@ -20,7 +20,7 @@ export async function getTaskById(req, res) {
   }
 
   const task = await taskService.getTaskById(id);
-  if (!tasks) {
+  if (!task) {
     return res.status(404).json({ error: 'Task not found' });
   }
   res.json(task);
