@@ -16,6 +16,10 @@ async function main() {
         title: 'Create Task model',
         completed: false,
       },
+      {
+        title: 'Buy groceries',
+        completed: false,
+      },
     ],
   });
 
